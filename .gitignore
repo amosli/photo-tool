@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PyInstaller
+*.spec
+*.manifest
+
+# Output images (keep test samples)
+*_1inch.jpg
+*_2inch.jpg
+*_cropped_layout.jpg
+
+# Keep sample output image for demo
+!image/sun_1inch.jpg
